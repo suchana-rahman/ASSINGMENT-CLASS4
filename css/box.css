@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container {width: 1200px;margin: auto;}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+   max-width: 100%;
+}
+
+
+/*   header css   */
+
+header{border-bottom: 2px solid #3b506c1f;padding: 15px 0px;}
+
+header.row{
+    align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+    max-width: 20%;
+}
+
+.logo a{
+}
+
+.logo a img{
+    max-width: 180px;
+}
+
+nav{
+   flex-basis: 80%;
+    max-width: 80%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    }
+
+nav ul li{}
+nav ul li a{
+	padding: 10px 15px;
+    display: block;
+    color: #3b506c;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+nav ul li a:hover{}
+
+nav ul .text-right{}
+
+nav ul .text-right a{
+    text-align: right;
+    display: inline-grid;
+}
+
+nav li a:hover{}
+
+
+
+
+/* Demo-sectiom css*/
+.Demo-section{}
+
+.Demo-section .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ h1{
+    font-size: 50px;
+    color: #3b506c;
+    line-height: 1;
+    font-weight: 800;
+}
+ p{}
+
+
+.col-4{}
+
+/*  blog-section css */
+
+.blog-section{
+     padding: 50px 0;
+};
+
+
+.blog-content{
+    font-size: 55px;
+    color: #3b506c;
+}
+
+.blog-content h2{
+    font-size: 55px;
+    color: #3b506c;
+    text-align: center;
+}
+.blog-content p{}
+
+.post{}
+.ss-2{}
+.ssb-1{}
+.ssb-1{}
+.ssr-2{}
+
+.post h3{}
+.post img{}
+
+
+
+/*  features  */
+
+
+.feature{}
+.feature h1{}
+.feature h1 p{}
+.col-3{
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.col-3 .post{}
+.col-3 .post h2{}
+.col-3 .post h2 p{}
+
+
+
+/*   footer    */
+
+footer{}
+footer p {}
+footer p h1{}
+
+
+
+
+
+
+
+
+
